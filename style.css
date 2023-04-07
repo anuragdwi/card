@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+html {
+  font-size: 62.5%;
+  /* 100=16px
+  62.5%=10px
+  1em -10px */
+}
+.wrapper {
+  margin: 5em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 90%;
+}
+.main h1 {
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 90%;
+}
+.main p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.card-list {
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 0.8em;
+  height: 40em;
+  margin: 4em 0;
+  padding: 1.1em;
+  display: flex;
+  align-items: end;
+  width: 32em;
+  color: #ffffff;
+}
+.card1 {
+  background: url("/1.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.card2 {
+  background: url("/2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.card3 {
+  background: url("/3.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.card4 {
+  background: url("/4.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.desc {
+  cursor: pointer;
+}
+.desc h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.desc p {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
