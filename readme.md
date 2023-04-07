@@ -1,4 +1,4 @@
-# plateChef
+# Responsive card layout
 
 A website that help you to learn how to use flexbox to make a layout responsive
 
